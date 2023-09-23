@@ -15,7 +15,7 @@ export default function Apple() {
 		<BrowserRouter>
 		<Routes>
 		 <Route path="/" element={<Layout />} >
-		 <Route path="blogs" element={<Blogs /} />
+		 <Route path="blogs" element={<Blogs />} />
 		 <Route path="contact" element={<Contact />} />
 		 <Route path="*" element={<NoPage />} />
 	        </Route>
