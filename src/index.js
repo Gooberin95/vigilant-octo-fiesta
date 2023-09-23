@@ -5,7 +5,7 @@ import Home from "./pages/Home";
 import Blogs from "./pages/Blogs";
 import Contact from "./pages/Contact";
 import NoPage from "./pages/NoPage";
-import ReactDom from "react-dom/client";
+import ReactDOM from "react-dom/client";
 import Links from "./Links";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
