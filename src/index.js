@@ -6,7 +6,6 @@ import Blogs from "./pages/Blogs";
 import Contact from "./pages/Contact";
 import NoPage from "./pages/NoPage";
 import ReactDOM from "react-dom/client";
-import Links from "./Links";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
@@ -17,7 +16,7 @@ export default function Apple() {
 		 <Route path="/" element={<Layout />} >
 		 <Route path="blogs" element={<Blogs />} />
 		 <Route path="contact" element={<Contact />} />
-		 <Route path="*" element={<NoPage />} />
+		 <Route path="*" element={<Home />} />
 	        </Route>
 	       </Routes>
 	      </BrowserRouter>

@@ -14,7 +14,7 @@ function App() {
 	      <Nav className="me-auto">
 	       <Link to="/">Home</Link>
 	       <Link to="/blogs">Blogs</Link>
-	       <Link to="/contact">Contact</Link>
+	       <Link to="/contact">Links</Link>
 	  </Nav>
 	  </Navbar.Collapse>
 	  </Container>
