@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import { Outlet, Link } from 'react-router-dom';
 
-function Layout() {
+function App() {
   return (
 	  <>
 	   <Navbar expand="lg" className="bg-body-tertiary" bg="dark" data-bs-theme="dark">
@@ -25,4 +25,4 @@ function Layout() {
   );
 }
 
-export default Layout;
+export default App;
