@@ -1,7 +1,6 @@
 import Stack from 'react-bootstrap/Stack';
 import Button from 'react-bootstrap/Button';
 import {DiGithubBadge} from 'react-icons/di'
-import {IconContext} from 'react-icons';
 import {BsYoutube} from 'react-icons/bs';
 import {BsLinkedin} from 'react-icons/bs';
 
