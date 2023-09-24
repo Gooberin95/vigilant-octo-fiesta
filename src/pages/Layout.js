@@ -8,13 +8,13 @@ function Layout() {
 		  	  <>
 		  	 <Navbar expand="lg" className="bg-body-tertiary" bg="dark" data-bs-theme="dark">
 		  	  <Container>
-		  	   <Navbar.Brand href="/home">Brandon Ruiz</Navbar.Brand>
+		  	   <Navbar.Brand >Brandon Ruiz</Navbar.Brand>
 		  	    <Navbar.Toggle aria-controls="basic-navbar-nav"/>
 		  	    <Navbar.Collapse id="basic-navbar-nav">
 		  	    <Nav className="me-auto">
-		  	     <Nav.Link > <Link to="/home">Blog</Link> </Nav.Link>
-		  	      <Nav.Link> <Link to="/blogs">Tech News</Link> </Nav.Link>
-		  	     <Nav.Link> <Link to="/contact">Links</Link> </Nav.Link>
+		  	     <Nav.Link > <Link to="/">Home</Link> </Nav.Link>
+		  	      <Nav.Link> <Link to="/blogs">Blogs</Link> </Nav.Link>
+		  	     <Nav.Link> <Link to="/links">Links</Link> </Nav.Link>
 
 
 		  	  </Nav>
