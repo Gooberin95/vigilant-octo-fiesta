@@ -11,7 +11,7 @@ function Contact() {
 		  <div></div>
 		  <Button variant="light" size="lg"><BsLinkedin/> LinkedIn</Button>
 		  <Button variant="light" size="lg"><DiGithubBadge/> Github</Button>
-		  <Button variant="light" size="lg"><BsYoutube/> Youtube</Button>
+		  <Button href="https://www.youtube.com/channel/UC5y5JHcpvCzgcy04QcvLLBg" variant="light" size="lg"><BsYoutube/> Youtube</Button>
 		</Stack>
 		</>
 	);
