@@ -11,26 +11,34 @@ function Home() {
 
 
 		return (
-			<> <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
-			<Card className="text-center" bg="info" text="light" style={{ width: '18rem'}}>
-			 <Card.Header>Brandon Ruiz</Card.Header>
-			 <Card.Body>
-			   <Card.Title>Cloud and Code</Card.Title>
-			   <Card.Text>
-			    Welcome to my site, hosted on Azure!
-			  </Card.Text>
-			  <Button variant="primary">Click here!</Button>
-			 </Card.Body>
-			<Card.Footer className="text-muted">2 days ago</Card.Footer>
-		       </Card>
-		   </div>
+			<>
+			
+					      <Row xs={1} md={2} className="g-4">
+					        {Array.from({ length: 12 }).map((_, idx) => (
+							        <Col key={idx}>
+							          <Card>
+							            <Card.Body>
+							              <Card.Title>Card title</Card.Title>
+							              <Card.Text>
+							                This is a longer card with supporting text below as a natural
+							                lead-in to additional content. This content is a little bit
+							                longer.
+							              </Card.Text>
+							             <Button variant="primary">Open</Button>
+							            </Card.Body>
+							          </Card>
+							        </Col>
+							      ))}
+					      </Row>
+
+			 
 
 
 			                   
 
 		       </>
 
-				)
+ );
 };
 
 export default Home;
