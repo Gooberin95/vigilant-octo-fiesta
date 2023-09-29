@@ -12,24 +12,41 @@ function Home() {
 
 
 		return (
-			<>
-			 <Container>
-			      <Row x style={{border: 'solid'}}s={2} md={4} lg={6}>
-			        <Col   style={{border: 'solid'}}>1 of 2</Col>
-			        <Col   style={{border: 'solid'}}>2 of 2</Col>
-			      </Row>
-			      <Row x style={{border: 'solid'}}s={1} md={2}>
-			        <Col  style={{border: 'solid'}}>1 of 3</Col>
-			        <Col   style={{border: 'solid'}}>2 of 3</Col>
-			        <Col  style={{border: 'solid'}}>3 of 3</Col>
-			      </Row>
-			      <Row  style={{border: 'solid'}}xs="auto">
-			        <Col  style={{border: 'solid'}}>1 of 3</Col>
-			        <Col  style={{border: 'solid'}}>2 of 3</Col>
-			        <Col  style={{border: 'solid'}}>3 of 3</Col>
-			      </Row>
-			    </Container>
-		       </>
+					      <>
+			<div style={{ padding: '70px' ,
+				  border: '3px ',
+				textAlign: 'center'}}>
+
+					        {[
+							        'Primary',
+							        'Secondary',
+							        'Success',
+							        'Danger',
+							        'Warning',
+							        'Info',
+							        'Light',
+							        'Dark',
+							      ].map((variant) => (
+								              <Card
+								                bg={variant.toLowerCase()}
+								                key={variant}
+								                text={variant.toLowerCase() === 'light' ? 'dark' : 'white'}
+								                style={{ width: '18rem' }}
+								                className="mb-2"
+								              >
+								                <Card.Header>Header</Card.Header>
+								                <Card.Body>
+								                  <Card.Title>{variant} Card Title </Card.Title>
+								                  <Card.Text>
+								                    Some quick example text to build on the card title and make up the
+								                    bulk of the card's content.
+								                  </Card.Text>
+								                </Card.Body>
+								              </Card>
+								            ))}
+			</div>
+					      </>
+
 
 		);
 };
