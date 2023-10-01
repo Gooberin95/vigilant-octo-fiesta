@@ -18,7 +18,7 @@ function Blogs() {
 		                <Card.Text>
 		                  Lock your door with a playstation controller!
 		                </Card.Text>
-		              <Button>Learn</Button>
+		              <Button href=  "https://youtu.be/XtMI7BTrE3Q?si=SxoaWT5R3UyxedfOttps://gray-mushroom-0a2e1261e.3.azurestaticapps.net">Learn</Button>
 
 		              </Card.Body>
 		            </Card>
@@ -31,7 +31,7 @@ function Blogs() {
 		                <Card.Text>
 		                  No monitor no problem! SSH into your Raspberry pi!
 		                </Card.Text>
-		                <Button>Learn</Button>
+		                <Button href="https://youtu.be/F863UqkyFY8?si=Qs0WhfCl8LJAOSfk">Learn</Button>
 
 		              </Card.Body>
 		            </Card>
@@ -44,7 +44,7 @@ function Blogs() {
 		                <Card.Text>
 		                  This is the third card. You can add more cards as required.
 		                </Card.Text>
-		              <Button>Learn</Button>
+		              <Button href="https://github.com/Gooberin95/PS4_DOT/blob/main/dot_controller.py">Learn</Button>
 
 		              </Card.Body>
 		            </Card>
