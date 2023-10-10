@@ -24,15 +24,15 @@ const cardData = [
 		description: 'Controlling and led light strip',
 		learnLink: 'https://github.com/Gooberin95/PS4_DOT/blob/main/dot_controller.py' 
 	},
+	{
+		imgSrc: 'https://www.nicepng.com/png/detail/990-9907356_microsoft-excel-icon-microsoft-excel.png',
+		title: 'Excel Addition',
+		description: 'Excel Budgeting using addition formula!',
+		learnLink: 'https://youtu.be/SAIMO6ikFuY?si=pf8tim-VJMoVW2xs'
+	}  
 
-{	
-		imgSrc:'',
-		title: '',
-		description: '',
-		learnLink: '' 
-	},
 
-
+]
 
 
 
@@ -40,10 +40,10 @@ const cardData = [
 function Blogs() {
 	  return (
 		      <Container>
-		        <h1 className="text-center mt-4">Projects!</h1>
-		        <Row className="justify-content-center mt-4">
+		        <h1 className="text-center mt-4" >Projects!</h1>
+		        <Row className="justify-content-center mt-4" md={4}>
 		          {cardData.map((card, index) => (
-		          <Col md={4} key={index}>
+		          <Col className="justify-content-center mt-4" md={4} key={index}>
 		            <Card>
 				  <Card.Img variant="top" src={card.imgSrc} />
 				  <Card.Body>
