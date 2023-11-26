@@ -1,7 +1,6 @@
 import React from 'react';
 import axios from 'axios';
 import { useState } from 'react';
-
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
@@ -23,9 +22,10 @@ function Home() {
 
 
 		return ( 
-		<> <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
+		<> <div style={{ display: 'flex', justifyContent: 'space-around', alignItems: 'center', height: '100vh' }}>
+			
 			<Card className="text-center" bg="dark" text="light" style={{ width: '48rem'}}>
-			 <Card.Header> Welcome to my site, hosted on Azure!</Card.Header>
+			<Card.Img  style={{alignSelf: 'center',width: '250px', height: '250px'}}variant="top" src="https://img.pokemondb.net/sprites/black-white/anim/normal/venusaur.gif" />
 			 <Card.Body>
 			   <Card.Title style={{textDecoration: 'underline'}}>{quoteData.author}</Card.Title>
 			   <Card.Text>
