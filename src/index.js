@@ -9,9 +9,12 @@ import ReactDOM from "react-dom/client";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
-export default function Apple() {
-	return (
-		<BrowserRouter>
+
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+   	<BrowserRouter>
 		<Routes>
 		 <Route path="/" element={<Layout />} >
 		 <Route index element={<Home />} />
@@ -21,14 +24,7 @@ export default function Apple() {
 	        </Route>
 	       </Routes>
 	      </BrowserRouter>
-	);
-}
 
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <Apple />
   </React.StrictMode>
 );
 
