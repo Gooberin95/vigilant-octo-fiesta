@@ -7,7 +7,7 @@ function Layout() {
 	  return (
 		  	  <>
 		  	 <Navbar expand="lg" className="bg-body-tertiary" bg="dark" data-bs-theme="dark">
-		  	  <Container>
+		  	  <Container >
 		  	   <Navbar.Brand >Brandon Ruiz</Navbar.Brand>
 		  	    <Navbar.Toggle aria-controls="basic-navbar-nav"/>
 		  	    <Navbar.Collapse id="basic-navbar-nav">
